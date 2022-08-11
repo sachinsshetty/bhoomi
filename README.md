@@ -1,17 +1,31 @@
-# ಅಮ್ಮ / amma
- self aware replica
+# ಭೂಮಿ / Bhoomi
 
-* Engine -> C++ / CUDA
-* Webserver -> Kotlin / Dropwizard
-* Build information available at [Build](https://github.com/slabstech/amma/blob/main/docs/readme/2022-07-21-build.md)
-* Use the Dockerfile to run the project as a container
+#### Greenhouse Agriculture Maintenance with MicroDrones
+
+Abstract :
+We propose a Swarm based micro-aerial drone robots, to
+spray insecticides for precision agriculture in
+greenhouses.
+
+In this approach, A sprayer(filled syringe) is attached to
+the underbody of a micro-aerial drone. The plunger is
+activated to spray the liquid using an electro-mechanical
+actuator, the rotor wash is used to spread over an area
+
+The target area is set based on the type of plant. Using
+CV the individual leaf/stalk is identified and
+predetermined quantity is sprayed.
+
+Usage of insecticide for agriculture has a destructive
+effect of the soil. The inefficiency of existing systems
+is are dependent of the factors viz., Human error, Wind
+direction, Distance between plants, Height of plants.
+
+With Swarm of micro drones, the inefficiency can be
+reduced to a large extent.
+
+Additional Details :
 
 
-### Research
-
-* Draft Paper available at [Paper](https://github.com/slabstech/amma/blob/main/docs/paper/2022-07-22-abstract.md)
-* Please use the below citation
-  * [1]Sachin Shetty, "ಅಮ್ಮ / amma: self aware replica", S Labs Solutions, 2022. [Online]. Available: https://slabstech.com/amma/. [Accessed: 22- Jul- 2022]
-
-### Supported by
+### Powered by
 * S Labs Solutions, India. [link](https://slabstech.com)
