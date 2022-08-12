@@ -2,15 +2,28 @@
 
 #### Greenhouse Agriculture Maintenance with MicroDrones
 
-Abstract :
-We propose a Swarm based micro-aerial drone robots, to
+
+A Swarm based micro-aerial drone robots, to
 spray insecticides for precision agriculture in
 greenhouses.
 
-In this approach, A sprayer(filled syringe) is attached to
+### Working of Product 
+
+A sprayer(filled syringe) is attached to
 the underbody of a micro-aerial drone. The plunger is
 activated to spray the liquid using an electro-mechanical
 actuator, the rotor wash is used to spread over an area
+
+### NavIC 
+
+Geo-fencing is built around NavIC, so that drones do not
+move out of target area during navigation using onboard
+online navigation. 
+
+Choose area for geo-fencing to restrict movement of swarm
+drones (both UAV and Ground Cables)
+
+### Mechanism 
 
 The target area is set based on the type of plant. Using
 CV the individual leaf/stalk is identified and
@@ -23,8 +36,6 @@ direction, Distance between plants, Height of plants.
 
 With Swarm of micro drones, the inefficiency can be
 reduced to a large extent.
-
-Additional Details :
 
 
 ### Powered by
