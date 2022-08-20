@@ -1,9 +1,9 @@
-FROM slabstech/cuda-cpp
+FROM nvidia/cuda:11.7.0-devel-ubuntu22.04
 WORKDIR /app
 RUN apt update && \
-    apt install --no-install-recommends -y build-essential cmake && \
-    apt clean && rm -rf /var/lib/apt/lists/*
-COPY engine/ engine
-RUN cmake engine/. -B build -DCMAKE_BUILD_TYPE=Release
-#RUN cmake --build . --target all --verbose -j `nproc`
-CMD ["echo", "CUDA"]
+    apt install --no-install-recommends -y build-essential cmake gcc g++ && \
+    apt clean && rm -rf /var/lib/apt/lists/* \
+RUN export "CC=/usr/bin/gcc-10"
+RUN export "CXX=/usr/bin/g++-10"
+RUN export "CUDAHOSTCXX=/usr/bin/g++-10"
+CMD ["cmake", "--version"]
