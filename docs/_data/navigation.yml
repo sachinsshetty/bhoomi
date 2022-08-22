@@ -1,7 +1,4 @@
 # Sample site navigation bar links
 
-- title: ಮಾಹಿತಿ
+- title: Blog
   url: /blog/
-
-- title: ವಿಚಾರಣೆ
-  url: /consult/
