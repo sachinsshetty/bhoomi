@@ -2,7 +2,7 @@
 remote_theme: mmistakes/so-simple-theme
 locale: en
 title: "Bhoomi"
-description: "Autnomous Drones"
+description: "Autonomous Swarm Drones"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://slabstech.com/bhoomi
 logo: # path of site logo, e.g. "/images/logo.png"
