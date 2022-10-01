@@ -4,7 +4,7 @@ locale: en
 title: "Bhoomi"
 description: "Autonomous Habitat Maintenance"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: https://mangala.earth
+url: "https://mangala.earth"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -16,7 +16,7 @@ google_fonts:
   - name: "Lora"
     weights: "400,400i,700,700i"
 twitter:
-  username: slabssoln
+  username: gaganyatri
 
 # Liquid
 liquid:
