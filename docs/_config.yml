@@ -2,9 +2,9 @@
 remote_theme: mmistakes/so-simple-theme
 locale: en
 title: "Bhoomi"
-description: "Autonomous Swarm Drones"
+description: "Autonomous Habitat Maintenance"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: https://slabstech.com/bhoomi
+url: https://mangala.earth
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
