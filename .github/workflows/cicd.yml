@@ -3,6 +3,7 @@ on: [push, pull_request]
 
 jobs:
   setup-build:
+    if: ${{ false }} # disable for now
     runs-on: ${{ matrix.os }}
     name: setup-build
     strategy:
@@ -26,6 +27,7 @@ jobs:
           action_config: "Release"
           action_cmake_path: "engine/"
   push-deploy:
+    if: ${{ false }} # disable for now
     name: push-deploy
     runs-on : ubuntu-latest
     permissions:
