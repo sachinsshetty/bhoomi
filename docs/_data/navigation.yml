@@ -1,20 +1,5 @@
 # Sample site navigation bar links
 
-- title: Project
-  url: /project/
+- title: Blog
+  url: /blog/
 
-- title: Demo
-  url: /demo/
-
-
-- title: Description
-  url: /description/
-
-- title: Data
-  url: /data/
-
-- title: Journey
-  url: /journey/
-
-- title: References
-  url: /references/
