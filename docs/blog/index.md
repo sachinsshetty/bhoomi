@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ಮಾಹಿತಿ
+title: "Blog"
 excerpt: 'Origin Stories'
 search_omit: true
 ---
