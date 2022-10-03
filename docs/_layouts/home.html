@@ -3,13 +3,6 @@ layout: page
 ---
 
 {{ content }}
-<br><br>
-
-<h3>Habitat Monitoring System</h3>
-
-<p>Digital Assistant and Monitoring system for Habitat</p>
-
-
 
 <h4>Idea :</h4>
 <ul>
@@ -19,11 +12,18 @@ layout: page
  <li>The system will monitor the green house and provide information to Mission specialist</li>
 </ul>
 
+<h5>Priority of Outfitting the Habitat</h5>
+<ul>
+ <li>Night/Winter Shelter : Low temperature</li>
+ <li>Green House : Nutrition and Sustenance</li>
+ <li>Power Generation : Solar Farms</li>
+ <li>Landing/Launch Zone : Reusable Rockets for Logistics and Supplies</li>
+</ul>
+
 <h4>Layout Design </h4>
 <img src="https://raw.githubusercontent.com/slabstech/bhoomi/main/docs/images/habitat_layout.jpg"  width="600" height="400" alt="Habitat Layout" />
 
 <br>
-
 <br>
 <table style="border:solid black 1px">
  <tr><th>Module</th><th>Description</th><th>Dimension</th><th>Priority</th><th>Type</th></tr>
@@ -42,12 +42,56 @@ layout: page
 </table>
 
 
- <h4>Working of Product</h4>
+<h4>Habitat Functions</h4>
  Based on the Mission Duration, to sustain human presence on the Red Plant nutrition is major component.
 <ul>
  <li>3D printer - Print the items based on Prioritised order received from the Habitat Control System</li>
  <li>Rover to pick the items from 3D printer and to stack it at sub-module location.</li>
  <li>When the items required for a sub-module are complete. Astronaut build the module with logistic support of Rover</li>
+ </ul>
+
+<h5>Sub modules</h5>
+ <ul>
+  <li>Solar Array Maintenance with Swarm of Unmanned Aerial Vehicles(UAV) drones -  <a href="https://mars.nasa.gov/technology/helicopter/">Ingenuity</a></li>
+  <ul>
+   <li>
+  For Swarm Drone Rotor Wash -<br>
+  Maintenance Swarm Drones which clean the dust of Solar Array Panels in remote locations autonomously. <br>
+  The rotor wash of the drone's propeller would be directed at the panels to blow away the minute dirt accumulated throughout the day.<br>
+  Using Vision Position System(VPS) the grids would be assigned to individual drones based on its health parameters. <br>
+  Using 2/3 wide angle camera lens, 360 deg view would be constantly monitored for SLAM.<br>
+  Autonomous drones would be wireless charged during excess peak output to conserve energy for critical systems.<br>
+  The intended deployment would be initial Mars Landing, where Autonomous systems build a minimum viable habitation facility.<br>
+  The algorithm can be customised to replace the fuel based hand held leaf blower locally.<br>
+  We demonstrate the working of the Autonomous system and also the fail-safe mechanism required for uninterrupted power generation<br>
+  </li>
+  </ul>
+  <li>Setup Modules with Swarm of Unmanned Ground Vehicles(UGV) - <a href="https://github.com/nasa-jpl/osr-rover-code"> OSR Rover </a></li>
+  <ul>
+   <li>For Greenhouse Maintenance<br>
+    In this approach, A filled syringe is attached to the underbody of a micro-aerial drone. <br>
+    The plunger is activated to spray the liquid using an electro-mechanical actuator.<br>
+    The target area is set based on the type of plant. Using CV the individual leaf/stalk is identified and predetermined quantity is sprayed.<br>
+    Usage of insecticide for agriculture has a destructive effect of the soil.<br>
+    The existing method of using body-mounted hand-pump based system is inefficient in terms of 1. Insecticide quantity used. 2. Square area of land covered<br>
+    The inefficiency is are dependent of the factors below
+    <ul>
+     <li>Human error</li>
+     <li>Wind direction</li>
+     <li>Distance between plants</li>
+     <li>Height of plants</li>
+     <li>Type of plants viz., large leaf, small leaf</li>
+     <li>Spray Nozzle</li>
+    </ul>
+    On a conservative method/approach, the insecticide is sprayed ineffectively over an area due to human error or field of view. The error is could a due to a combination of factors viz.,
+    <ul>
+     <li>Fatigue</li>
+     <li>Region of interest as a small dense area, cumbersome to traverse</li>
+     <li>Reduced plant to plant coverage due to height of plants</li>
+    </ul>
+  </li>
+ </ul>
+
  </ul>
 
 <h4>3D Tools</h4>
@@ -67,7 +111,8 @@ For the Habitat's Greenhouse Module. Below tools have to be 3D printed
  <li><a href="https://ntrs.nasa.gov/api/citations/20200001427/downloads/20200001427.pdf">Habitat Requirements</a></li>
  <li><a href="https://www.mosdac.gov.in/flip-book/demos/mars.html">ISRO-Mars Atlas</a></li>
  <li><a href="https://www.isro.gov.in/MarsOrbiterMissionSpacecraft.html">ISRO-Mars Orbiter</a></li>
- <li><a href="https://www.isro.gov.in/media_isro/pdf/Publications/Sciencedata/mars_orbiter_mission_mom_-_list_of_publications-october2020.pdf">ISRO-Mars Orbiter Publicationsr</a></li>
+ <li><a href="https://www.isro.gov.in/media_isro/pdf/Publications/Sciencedata/mars_orbiter_mission_mom_-_list_of_publications-october2020.pdf">ISRO-Mars Orbiter Publications</a></li>
+ <li><a href="https://mars.nasa.gov/">NASA - Mars</a></li>
 </ul >
 
 
@@ -81,22 +126,32 @@ For the Habitat's Greenhouse Module. Below tools have to be 3D printed
 <ul>
  <li><a href="https://gaganyatri.com/">Sachin Shetty </a></li>
  <li> Could be you too !!</li>
- </ul >
-
-
-<a href="https://2022.spaceappschallenge.org/challenges/2022-challenges/mars-habitat/teams/gaganyatri/stream"> Team Board </a>
-
-
-<h4 > Links</h4>
-<ul>
-<li ><a href="https://mangala.earth/project/">Project Data</a></li>
-<li ><a href="https://mangala.earth/description/">Description</a></li>
+ <li><a href="https://2022.spaceappschallenge.org/challenges/2022-challenges/mars-habitat/teams/gaganyatri/stream"> Team Board </a></li>
 </ul >
+
+<h4>TODO</h4>
+<ul>
+ <li>Integrate <a href="https://bhoomi-monitor-1664733866042.azurewebsites.net/">Bhoomi</a>  with <a href="">OSR Rover</a></li>
+ <li>Build Simulations and test failure scenarios of Habitat</li>
+ <li>Run S/W on embedded device with ISS components</li>
+</ul >
+
+<h4>Research Plan</h4>
+<ul>
+ <li>Design to work on Mars</li>
+ <li>Prototype & Testing on Earth</li>
+ <li>Minimum modifications using s/w configurations</li>
+ <li>Setup & Maintenance of Greenhouse Lab</li>
+ <li>Primary focus - Agriculture/Farming via Swarm Drone</li>
+ <li>Greenhouse Specs a. Dome - Igloo / Hot b. Bauhaus Square Design c. Underground Connection</li>
+ <li>Mining System Analysis</li>
+ <li>Material for Connectors a. Water Supply b. Air Support c. Energy Transmission</li>
+ <li>Single Bot Usage Design for Re-usability</li>
+</ul >
+
 
 <h4>Powered By</h4>
 <a href="https://slabstech.com)">S Labs Solutions, India.</a>
-
-
 
 <!--ul >
  <li >Mission Type : Short (<30 days), Long (1 year)</li >

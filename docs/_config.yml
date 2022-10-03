@@ -2,7 +2,7 @@
 remote_theme: mmistakes/so-simple-theme
 locale: en
 title: "Bhoomi"
-description: "Autonomous Habitat Maintenance"
+description: "Digital Assistant and Autonomous Habitat Maintenance"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://mangala.earth"
 logo: "/images/s_labs_logo.jpg" # path of site logo, e.g. "/images/logo.png"

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ಸೈಟ್ಮ್ಯಾಪ್
-excerpt: "ಟ್ಯಾಗ್ ಮೂಲಕ ವಿಂಗಡಿಸಲಾದ ಪೋಸ್ಟ್‌ಗಳ ಆರ್ಕೈವ್"
+title: "Tag Index"
+excerpt: ""
 search_omit: true
 ---
 
