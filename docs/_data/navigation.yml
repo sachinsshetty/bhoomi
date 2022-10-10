@@ -1,4 +1,4 @@
 # Sample site navigation bar links
 
-#- title: Blog
-#  url: /blog/
+- title: Research
+  url: /research/
