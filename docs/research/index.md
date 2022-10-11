@@ -5,6 +5,21 @@ excerpt: "Prepare to Finish"
 search_omit: true
 ---
 
+<h4>Research Plan</h4>
+<ul>
+ <li>Design to work on Mars</li>
+ <li>Prototype & Testing on Earth</li>
+ <li>Minimum modifications using s/w configurations</li>
+ <li>Setup & Maintenance of Greenhouse Lab</li>
+ <li>Primary focus - Agriculture/Farming via Swarm Drone</li>
+ <li>Greenhouse Specs a. Dome - Igloo / Hot b. Bauhaus Square Design c. Underground Connection</li>
+ <li>Mining System Analysis</li>
+ <li>Material for Connectors a. Water Supply b. Air Support c. Energy Transmission</li>
+ <li>Single Bot Usage Design for Re-usability</li>
+</ul >
+
+
+
 * Conference
   * [SSEO 2023, Berlin](https://iaaspace.org/event/14th-iaa-symposium-on-small-satellites-for-earth-observation-2023/)
 
