@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Research"
-excerpt: 'Prepare to Finish'
+excerpt: "Prepare to Finish"
 search_omit: true
 ---
 

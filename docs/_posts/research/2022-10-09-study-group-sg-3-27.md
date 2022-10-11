@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Study Group-SG 3.27"
+excerpt: "Utilization of Moon for Mars"
 categories: research
 tags: [ research ]
 date: 2022-10-09T08:08:50-04:00

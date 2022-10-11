@@ -15,20 +15,16 @@ layout: page
 <h6>Glossary</h6>
 <ul>
  <li>Bhoomi - Habitat</li>
- <li>Vyommitra - Habitat Assistant and Monitor System -  <a href=""> Abstract </a> for <a href="https://iaaspace.org/SSEO"> SSEO 2022 </a> - November 5 2023</li>
-
+ <li>Vyommitra - Habitat Assistant and Monitor System -  <a href="https://mangala.earth/research/abstract/"> Abstract </a> for <a href="https://iaaspace.org/SSEO"> SSEO 2022 </a> - November 5 2023</li>
 </ul>
 
-
-<h5>
-Project Runs on VxWorks Container
- </h5>
 <h5>Priority of Outfitting the Habitat</h5>
 <ul>
  <li>Night/Winter Shelter : Low temperature</li>
- <li>Green House : Nutrition and Sustenance</li>
+ <li>Green House : Nutrition and Sustenance with <a href="https://mangala.earth/research/hydroponics/">Hydroponics</a></li>
  <li>Power Generation : Solar Farms</li>
  <li>Landing/Launch Zone : Reusable Rockets for Logistics and Supplies</li>
+ <li>Computer Server : <a href="https://mangala.earth/research/server/">H/W and S/W Requirements</a></li>
 </ul>
 
 <h4>Layout Design </h4>
@@ -37,19 +33,19 @@ Project Runs on VxWorks Container
 <br>
 <br>
 <table style="border:solid black 1px">
- <tr><th>Module</th><th>Description</th><th>Dimension</th><th>Priority</th><th>Type</th></tr>
- <tr><td>CMD </td><td> Command Center</td><td>--</td><td>1</td><td>Clean</td></tr>
- <tr><td>WC</td><td>Waste Collection Module</td><td>--</td><td>2</td><td>Dirty</td></tr>
- <tr><td>PRIN</td><td> 3D Printer Module</td><td>--</td><td>3</td><td>Clean</td></tr>
- <tr><td>HYG</td><td>Hygiene Module</td><td>--</td><td>4</td><td>Dirty</td></tr>
- <tr><td>CRE QRT</td><td>Crew Quarters</td><td>--</td><td>5</td><td>Clean</td></tr>
- <tr><td>Galley</td><td></td><td>--</td><td>6</td><td>Clean</td></tr>
- <tr><td>EXE</td><td>Exercise Module</td><td>--</td><td>7</td><td>Clean</td></tr>
- <tr><td>SCI</td><td>Science Labs</td><td>--</td><td>8</td><td>Clean</td></tr>
- <tr><td>GRN</td><td>Green House</td><td>--</td><td>9</td><td>Clean</td></tr>
- <tr><td>EVA</td><td>Extra Vehicular Activity - Rover</td><td>--</td><td>10</td><td>Clean</td></tr>
- <tr><td>TCCS</td><td>Trace Containment Control System</td><td>--</td><td>11</td><td>Dirty</td></tr>
- <tr><td>LOG</td><td>Logistics and Stowage</td><td>--</td><td>12</td><td>Clean</td></tr>
+ <tr><th>Module</th>  <th>Description</th>                 <th>Dimension</th>     <th>Priority</th>  <th>Type</th></tr>
+ <tr><td>CMD </td>    <td>Command Center</td>              <td>--</td>            <td>1</td>         <td>Clean</td></tr>
+ <tr><td>WC</td>      <td>Waste Collection Module</td>     <td>--</td>            <td>2</td>         <td>Dirty</td></tr>
+ <tr><td>PRIN</td>    <td>3D Printer Module</td>           <td>--</td>            <td>3</td>         <td>Clean</td></tr>
+ <tr><td>HYG</td>     <td>Hygiene Module</td>              <td>--</td>            <td>4</td>         <td>Dirty</td></tr>
+ <tr><td>CRE QRT</td> <td>Crew Quarters</td>               <td>--</td>            <td>5</td>         <td>Clean</td></tr>
+ <tr><td>Galley</td>  <td>Food station</td>                <td>--</td>            <td>6</td>         <td>Clean</td></tr>
+ <tr><td>EXE</td>     <td>Exercise Module</td>             <td>--</td>            <td>7</td>         <td>Clean</td></tr>
+ <tr><td>SCI</td>     <td>Science Labs</td>                <td>--</td>            <td>8</td>         <td>Clean</td></tr>
+ <tr><td>GRN</td>     <td>Green House</td>                 <td>--</td>            <td>9</td>         <td>Clean</td></tr>
+ <tr><td>EVA</td>     <td>Extra Vehicular Activity</td>    <td>--</td>            <td>10</td>        <td>Clean</td></tr>
+ <tr><td>TCCS</td>    <td>Trace Containment Control System</td><td>--</td>        <td>11</td>        <td>Dirty</td></tr>
+ <tr><td>LOG</td>     <td>Logistics and Stowage</td>       <td>--</td>            <td>12</td>        <td>Clean</td></tr>
 </table>
 
 
@@ -63,38 +59,22 @@ Project Runs on VxWorks Container
 
 <h4>Re-Usable Component from I-Hab</h4>
 <ul>
- <li>Avionics and flight software:</li>
+<li>Crew Systems:</li>
  <ul>
-  <li>Integrated Modular Avionics with four mutually redundant On-Board Flight Computers</li>
-  <li>Two failure-tolerant data network backbones</li>
-  <li>Built on top of the VxWorks operating system</li>
-  <li>Time Triggered Ethernet (IP Best Effort and Avionics Full-Duplex Switched Ethernet, AFDX or ARINC 664)
-  </li>
+  <li>Galley for warming food and dining</li>
+  <li>Personal Crew Compartments providing private area for sleeping</li>
  </ul>
- <li>Electrical Power System:</li>
- <ul>
-  <li>Powered through the Gateway’s Power Propulsion Element</li>
-  <li>Four power lines</li>
-  <li>Two batteries store power</li>
-  <li>Can interface with and receive power from other vehicles such as Orion and modules</li>
-
-</ul>
- <li>Crew Systems:</li>
-<ul>
- <li>Galley for warming food and dining</li>
- <li>Personal Crew Compartments providing private area for sleeping
- </li>
-</ul>
  <li>Crew Health Performance Subsystem:</li>
  <ul>
   <li>Environmental monitoring (acoustic, radiation, chemical hazards)</li>
   <li>Exercise area</li>
   <li>Medical care</li>
  </ul>
- <li>Docking ports:</li><ul>
- <li>Two axial ports for attachment to the Gateway</li>
- <li>Two ports radially for vehicles</li>
-</ul>
+ <li>Docking ports:</li>
+  <ul>
+   <li>Two axial ports for attachment to the Gateway</li>
+   <li>Two ports radially for vehicles</li>
+  </ul>
 </ul>
 
 <h4>Build Order</h4>
