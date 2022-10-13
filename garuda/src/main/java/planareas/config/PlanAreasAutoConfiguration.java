@@ -1,15 +1,16 @@
 package planareas.config;
 
-import com.camptocamp.planareas.api.PlanAreaController;
-import com.camptocamp.planareas.repository.PlanArea;
-import com.camptocamp.planareas.repository.PlanAreaRepository;
-import com.camptocamp.planareas.service.CoordinateTransformationService;
-import com.camptocamp.planareas.service.PlanAreaService;
+
 import org.locationtech.jts.geom.GeometryFactory;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import planareas.api.PlanArea;
+import planareas.api.PlanAreaController;
+import planareas.repository.PlanAreaRepository;
+import planareas.service.CoordinateTransformationService;
+import planareas.service.PlanAreaService;
 
 @Configuration
 @EnableJpaRepositories(basePackageClasses = PlanAreaRepository.class)

@@ -1,12 +1,12 @@
 package planareas.service;
 
-import com.camptocamp.planareas.repository.PlanAreaRepository;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.Point;
+import planareas.repository.PlanAreaRepository;
 
 import javax.transaction.Transactional;
 import java.util.List;
@@ -29,8 +29,8 @@ public class PlanAreaService {
 
         Geometry area = location.buffer(radiusInDegrees);
 
-        com.camptocamp.planareas.repository.PlanArea entity =
-                new com.camptocamp.planareas.repository.PlanArea();
+        planareas.repository.PlanArea entity =
+                new planareas.repository.PlanArea();
         entity.setName(name);
         entity.setArea(area);
         entity = repo.save(entity);
@@ -46,7 +46,7 @@ public class PlanAreaService {
         return repo.findAllByOrderByName().stream().map(this::toModel).toList();
     }
 
-    private PlanArea toModel(com.camptocamp.planareas.repository.PlanArea entity) {
+    private PlanArea toModel(planareas.repository.PlanArea entity) {
         return new PlanArea(entity.getName(), entity.getArea());
     }
 }

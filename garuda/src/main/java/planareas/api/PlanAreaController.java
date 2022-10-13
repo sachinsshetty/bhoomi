@@ -1,6 +1,5 @@
 package planareas.api;
 
-import com.camptocamp.planareas.service.PlanAreaService;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -10,6 +9,7 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
+import planareas.service.PlanAreaService;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Valid;
@@ -63,7 +63,7 @@ public class PlanAreaController {
             // violations);
         }
 
-        com.camptocamp.planareas.service.PlanArea created =
+        planareas.service.PlanArea created =
                 service.createForLocation(name, lat, lon, radiusInKM);
 
         PlanArea ret = toApi(created);
@@ -83,12 +83,12 @@ public class PlanAreaController {
     @GetMapping(path = "/api/planareas/name/{name}", produces = APPLICATION_JSON_VALUE)
     @ResponseBody
     public PlanArea findByName(@PathVariable("name") String name) {
-        Optional<com.camptocamp.planareas.service.PlanArea> found = service.findByName(name);
+        Optional<planareas.service.PlanArea> found = service.findByName(name);
 
         return found.map(this::toApi).orElseThrow(() -> new ResponseStatusException(BAD_REQUEST));
     }
 
-    private PlanArea toApi(com.camptocamp.planareas.service.PlanArea modelObject) {
+    private PlanArea toApi(planareas.service.PlanArea modelObject) {
         String name = modelObject.name();
         String areaWKT = modelObject.area().toText();
         PlanArea ret = PlanArea.valueOf(name, areaWKT);
