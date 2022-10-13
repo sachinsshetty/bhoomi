@@ -56,9 +56,9 @@
         * postman
     * Create PR to upstream
       ````
-      gh pr create --repo slabstech/bhoomi
+      gh pr create --repo slabstech/bhoomi -f
       ````
-    *
+
 
 ### References
 * fork repo - https://cli.github.com/manual/gh_repo_fork
@@ -67,4 +67,27 @@
 * Disable tests - https://maven.apache.org/surefire/maven-surefire-plugin/examples/skipping-tests.html
 * Docker postgis -  postgis/postgis:14-3.3-alpine  from https://registry.hub.docker.com/r/postgis/postgis/
 * https://medium.datadriveninvestor.com/getting-started-building-location-based-gis-rest-apis-with-java-ca28a8869af3
-* 
+* https://hub.docker.com/r/windriver/wrlx-image
+
+
+---
+
+
+## Build
+
+In order to simplify the most commonly used maven commands, a `Makefile` is provided
+
+```
+make
+```
+
+will build the project, apply code formatting rules, run tests, and build the docker image
+
+Separate make targets exist for these tasks, to be run with `make <target>` (e.g. `make install`):
+
+* `all`: runs `format install test build-image`
+* `lint`: fails if any java source code file or pom.xml file are ill-formatted
+* `format`: applies formatting rules to all java and pom.xml files
+* `install`: builds and installs the project artifacts without running tests
+* `test`: runs unit and integration tests
+* `build-image`: builds the docker image
