@@ -12,7 +12,7 @@ RUN jdeps --ignore-missing-deps --module-path modules --add-modules=ALL-MODULE-P
 RUN jlink --add-modules ALL-MODULE-PATH --no-man-pages --no-header-files --compress=2 --output jre
 
 # take a smaller runtime image for the final output
-FROM postgis/postgis:14-3.3-alpine as bhoomi-garuda
+FROM windriver/wrlx-image:full as bhoomi-garuda
 WORKDIR /deployment
 
 # copy the custom JRE produced from jlink

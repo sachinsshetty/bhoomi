@@ -3,7 +3,7 @@ services:
     image: 'slabstech/bhoomi-garuda'     # SpringBoot Server
     build:
       context: server 
-      dockerfile: server/postgis/Dockerfile
+      dockerfile: Dockerfile
     container_name: app
     restart: always
     ports:
