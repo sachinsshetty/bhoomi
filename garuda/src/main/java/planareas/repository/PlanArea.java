@@ -2,6 +2,7 @@ package planareas.repository;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
+
 import org.locationtech.jts.geom.Geometry;
 
 import javax.persistence.*;

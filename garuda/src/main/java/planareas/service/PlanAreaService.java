@@ -2,15 +2,18 @@ package planareas.service;
 
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
+
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.Point;
+
 import planareas.repository.PlanAreaRepository;
 
-import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
+
+import javax.transaction.Transactional;
 
 @RequiredArgsConstructor
 public class PlanAreaService {
@@ -29,8 +32,7 @@ public class PlanAreaService {
 
         Geometry area = location.buffer(radiusInDegrees);
 
-        planareas.repository.PlanArea entity =
-                new planareas.repository.PlanArea();
+        planareas.repository.PlanArea entity = new planareas.repository.PlanArea();
         entity.setName(name);
         entity.setArea(area);
         entity = repo.save(entity);

@@ -1,27 +1,30 @@
 package planareas.api;
 
+import static org.springframework.http.HttpStatus.BAD_REQUEST;
+import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
+
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
+
 import planareas.service.PlanAreaService;
 
-import javax.validation.ConstraintViolation;
-import javax.validation.Valid;
-import javax.validation.Validator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Stream;
 
-import static org.springframework.http.HttpStatus.BAD_REQUEST;
-import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
+import javax.validation.ConstraintViolation;
+import javax.validation.Valid;
+import javax.validation.Validator;
 
 @RestController
 @RequiredArgsConstructor
@@ -63,8 +66,7 @@ public class PlanAreaController {
             // violations);
         }
 
-        planareas.service.PlanArea created =
-                service.createForLocation(name, lat, lon, radiusInKM);
+        planareas.service.PlanArea created = service.createForLocation(name, lat, lon, radiusInKM);
 
         PlanArea ret = toApi(created);
 

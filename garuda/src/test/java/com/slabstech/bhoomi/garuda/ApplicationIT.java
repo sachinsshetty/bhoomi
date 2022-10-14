@@ -1,5 +1,8 @@
 package com.slabstech.bhoomi.garuda;
 
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.springframework.http.HttpStatus.*;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,21 +16,20 @@ import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 import org.testcontainers.utility.DockerImageName;
+
 import planareas.api.DataPoint;
 import planareas.repository.PlanArea;
 
 import java.util.List;
 import java.util.Map;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.springframework.http.HttpStatus.*;
-
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @Testcontainers
 class ApplicationIT {
 
     private static final DockerImageName postgisImageName =
-            DockerImageName.parse("postgres:15rc2-alpine3.16").asCompatibleSubstituteFor("postgres");
+            DockerImageName.parse("postgres:15rc2-alpine3.16")
+                    .asCompatibleSubstituteFor("postgres");
 
     @Container
     public static PostgreSQLContainer<?> postgis =
@@ -63,7 +65,7 @@ class ApplicationIT {
 
         PlanArea created = response.getBody();
         assertThat(created.getName()).isEqualTo(where.getName());
-       // assertThat(created.getAreaWKT()).matches("POLYGON((.*))");
+        // assertThat(created.getAreaWKT()).matches("POLYGON((.*))");
 
         response = findByName(created.getName());
         assertThat(response.getStatusCode()).isEqualTo(OK);
