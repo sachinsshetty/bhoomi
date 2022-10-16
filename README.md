@@ -4,16 +4,7 @@
 
 Assistance system to help Martian explorers in Science Missions
 
-### Working of Product 
-
-
-### NavIC 
-
-
-
-### Mechanism 
-
-
+[Visit Website - https://mangala.earth][https://mangala.earth]
 
 
 ### Powered by
