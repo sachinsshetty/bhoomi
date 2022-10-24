@@ -14,3 +14,6 @@
   * google test - https://google.github.io/googletest/
   * cmake - https://cmake.org/cmake/help/latest/guide/tutorial/index.html
   * abseil - https://abseil.io/about/philosophy
+  * test-example - https://github.com/snikulov/google-test-examples
+  * gtest-parallel - https://github.com/google/gtest-parallel
+  * cmake download - https://cmake.org/download/
