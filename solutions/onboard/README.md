@@ -8,6 +8,9 @@
   * cd build && ctest
   
 
+* TODO
+  * Private and public - https://github.com/bast/gtest-demo/blob/master/src/CMakeLists.txt
+
 * Reference
   * JetBrains CLion - https://www.jetbrains.com/help/clion/unit-testing-tutorial.html
   * Test suite - Boost - https://www.boost.org/doc/libs/
@@ -17,3 +20,4 @@
   * test-example - https://github.com/snikulov/google-test-examples
   * gtest-parallel - https://github.com/google/gtest-parallel
   * cmake download - https://cmake.org/download/
+  * gtest-demo - https://github.com/bast/gtest-demo

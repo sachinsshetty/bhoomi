@@ -1,0 +1,40 @@
+name: "onboard-cpp"
+on: [push, pull_request]
+
+jobs:
+  setup-build:
+    #if: ${{ false }} # disable for now
+    runs-on: ${{ matrix.os }}
+    name: setup-build
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-22.04
+            cuda: "11.7"
+            gcc: 10
+    permissions:
+      packages: write
+      contents: read
+    defaults:
+      run:
+        shell: bash -l {0}
+
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Move to onbaord
+        run: |
+          cd solutions/onboard
+
+      - name: Configure
+        run: |
+          cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Debug
+
+      - name: Build
+        run: |
+          cmake --build build --config Debug
+
+      - name: Test
+        run: |
+          cd build
+          ctest -C Debug --output-on-failure --verbose
