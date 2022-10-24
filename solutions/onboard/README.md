@@ -12,6 +12,7 @@
   * Private and public - https://github.com/bast/gtest-demo/blob/master/src/CMakeLists.txt
 
 * Reference
+  * fprime - Rpi Test - https://github.com/sachinsshetty/fprime/blob/master/.github/workflows/build-test-rpi.yml 
   * JetBrains CLion - https://www.jetbrains.com/help/clion/unit-testing-tutorial.html
   * Test suite - Boost - https://www.boost.org/doc/libs/
   * google test - https://google.github.io/googletest/
