@@ -3,7 +3,7 @@ on: [push, pull_request]
 
 jobs:
   setup-build:
-    #if: ${{ false }} # disable for now
+    if: ${{ false }} # disable for now
     runs-on: ${{ matrix.os }}
     name: setup-build
     strategy:
