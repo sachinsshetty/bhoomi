@@ -4,6 +4,8 @@
 
 Assistance system to help Martian explorers in Science Missions
 
+* NASA Space Apps [2022 Global Nominee](https://2022.spaceappschallenge.org/locations/magdeburg/teams)
+
 [Visit Website - https://mangala.earth](https://mangala.earth)
 
 ### Sponsor's
