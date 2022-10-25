@@ -12,7 +12,7 @@ int cut_rod_memoized_aux(int *pInt, int n,int *result);
 
 void cut_rod_recursion(int *pInt, int n);
 
-void cut_rod_bottom_up(int pInt[10], int n);
+void cut_rod_bottom_up(int *pInt, int n);
 
 int main() {
 
@@ -23,13 +23,13 @@ int main() {
 
     cut_rod_memoized(p,n);
 
-    cut_rod_bottom_up(p,n);
+//    cut_rod_bottom_up(p,n);
 
     return 0;
 }
 
-void cut_rod_bottom_up(int pInt[10], int n) {
-    int result[n];
+void cut_rod_bottom_up(int *pInt, int n) {
+    int *result = new int[n];
     result[0]=0;
 
     int q;
@@ -64,7 +64,7 @@ void cut_rod_recursion(int *pInt, int n) {
 
 void cut_rod_memoized(int *pInt, int n) {
 
-    int result[n];
+    int *result = new int[n];
     for(int i=0; i<n;i++){
         result[i] = INT32_MIN;
     }
