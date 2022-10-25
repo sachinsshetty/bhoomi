@@ -1,13 +1,9 @@
 ---
 layout: page
-title: "Space Apps 2022- Sponsorship"
-categories: sponsors
-excerpt : "Build Hardware"
-tags: [ sponsors ]
-date: 2022-10-09T08:08:50-04:00
+title: "Sponsors"
+excerpt: "Build Hardware for Competition"
+search_omit: true
 ---
-
-Sponsors required to build hardware for the Idea selected as [Global Nominee 2022](https://2022.spaceappschallenge.org/locations/magdeburg/teams)
 
 ### Phase 1 -
 * AstroPi - for [Nasa Space Apps Challenge 2022 Global Nominee](https://mangala.earth/sponsors/spaceapps-2022/)
@@ -22,11 +18,4 @@ Sponsors required to build hardware for the Idea selected as [Global Nominee 202
   * [Wheel Mount](https://www.amazon.de/-/en/dp/B01MS7W5EG/)
 * Habitat
   * 3D Printer
-
-
-### Benefits
-* Company/Sponsor Name displayed for 3 months at Project Website - Now till Jan 2023
-* Sponsor mentioned in 1 Research Paper
-* Sponsor Logo sticker added to devices
-
-
+  
