@@ -7,6 +7,20 @@ search_omit: true
 
 Sponsors required to build hardware for the Idea selected as [Global Nominee 2022](https://2022.spaceappschallenge.org/locations/magdeburg/teams)
 
+### Sponsorship Amount Required- 302 €
+* [Amazon Wishlist](https://www.amazon.de/hz/wishlist/ls/3GMSOW67OIS02) -
+  * Solar Panel for RaspberryPi
+  * Solar PowerBank
+  * Pi Cluster Case
+  * Smart Car Arduino Kit
+
+
+### Benefits
+* Company/Sponsor Name displayed for 3 months at Project Website - Now till Jan 2023
+* Sponsor mentioned in 1 Research Paper
+* Sponsor Logo sticker added to devices
+
+<!--
 ### Phase 1 -
 * 3d Printer
   * [AnyCubic -Photon M3 Max](https://www.amazon.de/ANYCUBIC-Photon-Printer-Monochrome-M3-Max/dp/B09SG9GXDX?ref_=ast_sto_dp&th=1) - 1300 €  - 300 x 298 x 164
@@ -28,9 +42,4 @@ Sponsors required to build hardware for the Idea selected as [Global Nominee 202
   * 3D Printer
 * UAV Dock
   * [DJI Dock](https://www.dji.com/de/dock)
-
-
-### Benefits
-* Company/Sponsor Name displayed for 3 months at Project Website - Now till Jan 2023
-* Sponsor mentioned in 1 Research Paper
-* Sponsor Logo sticker added to devices
+-->

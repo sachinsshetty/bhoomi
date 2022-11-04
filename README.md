@@ -8,11 +8,13 @@ Assistance system to help Martian explorers in Science Missions
 
 [Visit Website - https://mangala.earth](https://mangala.earth)
 
-### Sponsor's
+### Sponsor's Required- 302 €
 * Phase 1 - AstroPi - for [Nasa Space Apps Challenge 2022 Global Nominee](https://mangala.earth/sponsors/spaceapps-2022/)
-* Phase 2 - Rover - for [Spacecraft Mission Operations - SMOPS 2023](https://smops2023.istrac.gov.in/) 
-* Phase 3 - 3D Printer 
-
+  * [Amazon Wishlist](https://www.amazon.de/hz/wishlist/ls/3GMSOW67OIS02) - 
+    * Solar Panel for RaspberryPi 
+    * Solar PowerBank
+    * Pi Cluster Case
+    * Smart Car Arduino Kit
 
 ### Ingenuity
 * Mars Ingenuity - https://github.com/readme/featured/nasa-ingenuity-helicopter
