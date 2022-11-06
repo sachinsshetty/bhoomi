@@ -8,6 +8,9 @@ Assistance system to help Martian explorers in Science Missions
 
 [Visit Website - https://mangala.earth](https://mangala.earth)
 
+
+Measure  Build  Intervene
+
 ### Sponsor's Required- 302 €
 * Phase 1 - AstroPi - for [Nasa Space Apps Challenge 2022 Global Nominee](https://mangala.earth/sponsors/spaceapps-2022/)
   * [Amazon Wishlist](https://www.amazon.de/hz/wishlist/ls/3GMSOW67OIS02) - 
