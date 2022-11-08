@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "Patent Application - Autonomous Habitat"
-categories: research
+categories: patent
 excerpt : "Process and Steps"
-tags: [ research ]
+tags: [ patent]
 date: 2022-11-07T00:00:00-00:00
 ---
 
