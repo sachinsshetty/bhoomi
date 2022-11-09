@@ -29,4 +29,6 @@ Measure  Build  Intervene
 ### Powered by
 * S Labs Solutions, India. [link](https://slabstech.com)
 
-<!-- Embed Generator https://www.labnol.org/embed/google/drive/ >
+<!-- Embed Generator https://www.labnol.org/embed/google/drive/ 
+Manifest - https://www.mozilla.org/en-US/about/manifesto/
+>
