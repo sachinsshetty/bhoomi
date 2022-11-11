@@ -5,7 +5,9 @@ excerpt: "Surviving on Mars for 1000 years"
 search_omit: true
 ---
 
-* [Download Pdf](https://github.com/slabstech/bhoomi/blob/main/docs/assets/docs/seeker.PDF)
+* [Download Seeker : Pdf](https://github.com/slabstech/bhoomi/blob/main/docs/assets/docs/seeker.PDF)
+
+* [Buy on Amazon](https://www.amazon.de/dp/B0BLYBB43W/)
 
 * Read the Book online 
 
