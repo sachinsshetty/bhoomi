@@ -11,13 +11,14 @@ Assistance system to help Martian explorers in Science Missions
 
 Measure  Build  Intervene
 
-### Sponsor's Required- 302 €
+### Sponsor's Required- 360 €
 * Phase 1 - AstroPi - for [Nasa Space Apps Challenge 2022 Global Nominee](https://mangala.earth/sponsors/spaceapps-2022/)
   * [Amazon Wishlist](https://www.amazon.de/hz/wishlist/ls/3GMSOW67OIS02) - 
     * Solar Panel for RaspberryPi 
     * Solar PowerBank
     * Pi Cluster Case
     * Smart Car Arduino Kit
+    * [Battery and Charger for DJI Tell Drone](https://www.amazon.de/dp/B08HH28RJ3/) : 60 € 
 
 ### Ingenuity
 * Mars Ingenuity - https://github.com/readme/featured/nasa-ingenuity-helicopter
