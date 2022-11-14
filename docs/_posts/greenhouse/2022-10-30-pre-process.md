@@ -6,6 +6,9 @@ excerpt : "For sustenance"
 tags: [ research ]
 date: 2022-10-30T00:00:00-00:00
 ---
+* November 2022 - Garden state
+
+<a href="https://drive.google.com/file/d/10oXQ0Jgaod14JLP9eftZ0A9CRsWOs9DB/view"> <img src="https://drive.google.com/file/d/10oXQ0Jgaod14JLP9eftZ0A9CRsWOs9DB/view" loading="lazy" width="300" height="300"  /></a>
 
 * Processing
   * Mint
