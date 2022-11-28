@@ -1,15 +1,17 @@
 # ಭೂಮಿ / Bhoomi
 
-#### Habitat Monitoring System
+#### Perpetual Autonomous Habitat System
 
-Assistance system to help Martian explorers in Science Missions
+* Assistance system to help Martian explorers in Science Missions
 
 * NASA Space Apps [2022 Global Nominee](https://2022.spaceappschallenge.org/locations/magdeburg/teams)
 
-[Visit Website - https://mangala.earth](https://mangala.earth)
+* [Demo - https://mangala.earth](https://mangala.earth)
 
-
-Measure  Build  Intervene
+* 3 step process
+  * Measure  
+  * Build  
+  * Intervene
 
 ### Sponsor's Required- 360 €
 * Phase 1 - AstroPi - for [Nasa Space Apps Challenge 2022 Global Nominee](https://mangala.earth/sponsors/spaceapps-2022/)
@@ -20,7 +22,7 @@ Measure  Build  Intervene
     * Smart Car Arduino Kit
     * [Battery and Charger for DJI Tell Drone](https://www.amazon.de/dp/B08HH28RJ3/) : 60 € 
 
-### Ingenuity
+### References
 * Mars Ingenuity - https://github.com/readme/featured/nasa-ingenuity-helicopter
 * fprime - 
   * flight software nasa - https://github.com/nasa/fprime
