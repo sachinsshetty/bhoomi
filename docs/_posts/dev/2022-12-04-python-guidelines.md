@@ -7,6 +7,10 @@ tags: [ development ]
 date: 2022-12-04T00:00:00-00:00
 ---
 
+
+* DJI Tello 
+  * https://github.com/dji-sdk/Tello-Python
+  
 * Building Container
   * https://snyk.io/blog/best-practices-containerizing-python-docker/
 

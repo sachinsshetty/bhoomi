@@ -24,4 +24,5 @@ COPY --chown=python:python . .
 USER 999
 
 ENV PATH="/usr/app/venv/bin:$PATH"
-CMD [ "gunicorn", "--bind", "0.0.0.0:5000", "manage:app" ]
+CMD ["python" , "app.py"]
+#CMD [ "gunicorn", "--bind", "0.0.0.0:5000", "manage:app" ]
