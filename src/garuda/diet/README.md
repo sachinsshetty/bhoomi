@@ -1,11 +1,13 @@
 ## Diet
 
+#### TODO
+* Create Array values of Recipes from Ammanaaduge
 
 - Use Dockerfile to test the application
 - Use GithubAction to validate against tests for all scenarios
 
-#### TODO
-* Create Array values of Recipes from Ammanaaduge
+
+
 
 
 <!-- 
