@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "Python Design Guidelines"
-categories: development
+categories: dev
 excerpt : "How to and What not to"
-tags: [ development ]
+tags: [ dev ]
 date: 2022-12-04T00:00:00-00:00
 ---
 
@@ -30,4 +30,5 @@ date: 2022-12-04T00:00:00-00:00
 
 
 * References
+  * https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3
   * https://snyk.io/learn/application-security/static-application-security-testing/
