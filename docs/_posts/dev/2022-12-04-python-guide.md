@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "Python Design Guidelines"
-categories: development
+categories: dev
 excerpt : "How to and What not to"
-tags: [ development ]
+tags: [ dev ]
 date: 2022-12-04T00:00:00-00:00
 ---
 
@@ -11,6 +11,9 @@ date: 2022-12-04T00:00:00-00:00
 * DJI Tello 
   * https://github.com/dji-sdk/Tello-Python
   
+* GitHub Actions 
+  * https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#outputs-and-environment-variables
+
 * Building Container
   * https://snyk.io/blog/best-practices-containerizing-python-docker/
 
@@ -30,4 +33,5 @@ date: 2022-12-04T00:00:00-00:00
 
 
 * References
+  * https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3
   * https://snyk.io/learn/application-security/static-application-security-testing/

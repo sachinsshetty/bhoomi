@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "Java Design Guidelines"
-categories: development
+categories: dev
 excerpt : "How to and What not to"
-tags: [ development ]
+tags: [ dev ]
 date: 2022-12-04T00:00:00-00:00
 ---
 

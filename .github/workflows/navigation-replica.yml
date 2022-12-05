@@ -1,9 +1,15 @@
-name: "onboard-cpp"
-on: [push, pull_request]
-
+name: "Navigation Replica"
+on:
+  push:
+    paths:
+      - '/src/garuda/navigation/**'
+  pull_request:
+    types: [ opened, reopened, synchronize, ready_for_review ]
+    branches: [ main ]
+  release:
+    types: [ published ]
 jobs:
   setup-build:
-    if: ${{ false }} # disable for now
     runs-on: ${{ matrix.os }}
     name: setup-build
     strategy:
@@ -18,13 +24,10 @@ jobs:
     defaults:
       run:
         shell: bash -l {0}
-
+        working-directory: '/src/garuda/navigation/'
 
     steps:
       - uses: actions/checkout@v3
-      - name: Move to onbaord
-        run: |
-          cd ./solutions/onboard
 
       - name: Configure
         run: |
