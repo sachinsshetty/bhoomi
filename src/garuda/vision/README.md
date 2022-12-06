@@ -27,6 +27,11 @@
     * docker build -t flask-application --cache-from flask-application --build-arg BUILDKIT_INLINE_CACHE=1 .
 
     * docker run -p 8080:5000 flask-application
+  
+  * Security
+    * docker build -t slabstech/bhoomi-garuda-vision .
+    * docker scan slabstech/bhoomi-garuda-vision
+
 
 * Guidelines
   - Use Dockerfile to test the application

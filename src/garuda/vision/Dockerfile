@@ -1,6 +1,5 @@
-FROM python:3.10-slim as build
-RUN apt-get update
-RUN apt-get install -y --no-install-recommends \
+FROM python:3.10-slim-bullseye as build
+RUN apt-get update && apt-get install -y --no-install-recommends \
 build-essential gcc
 
 WORKDIR /usr/app
@@ -8,9 +7,9 @@ RUN python -m venv /usr/app/venv
 ENV PATH="/usr/app/venv/bin:$PATH"
 
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-FROM python:3.10-slim@sha256:2bac43769ace90ebd3ad83e5392295e25dfc58e58543d3ab326c3330b505283d
+FROM python:3.10-slim-bullseye
 
 RUN groupadd -g 999 python && \
     useradd -r -u 999 -g python python

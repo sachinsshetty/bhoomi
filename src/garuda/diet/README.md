@@ -3,12 +3,11 @@
 #### TODO
 * Create Array values of Recipes from Ammanaaduge
 
+* docker build -t slabstech/bhoomi-garuda-diet .
+* docker scan slabstech/bhoomi-garuda-diet
+
 - Use Dockerfile to test the application
 - Use GithubAction to validate against tests for all scenarios
-
-
-
-
 
 <!-- 
 @sachin - Update the build steps for Java 17, SpringBoot, MariaDB, Kafka
