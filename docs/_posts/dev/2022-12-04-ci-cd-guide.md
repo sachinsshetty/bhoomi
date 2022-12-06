@@ -7,6 +7,11 @@ tags: [ dev ]
 date: 2022-12-04T00:00:00-00:00
 ---
 
+* Dockerfile linter - Hadolint
+  * https://github.com/hadolint/hadolint
+    * docker run --rm -i hadolint/hadolint < Dockerfile
+  * Windows
+    * cat .\Dockerfile | docker run --rm -i hadolint/hadolint
 * https://sourcery.ai/
 * snyk.io
 * GitHub Actions 
