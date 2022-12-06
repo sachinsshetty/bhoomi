@@ -14,8 +14,11 @@ date: 2022-12-04T00:00:00-00:00
     * cat .\Dockerfile | docker run --rm -i hadolint/hadolint
 * https://sourcery.ai/
 * snyk.io
+  * https://aws.amazon.com/de/blogs/apn/build-and-deploy-a-secure-container-image-with-aws-and-snyk/
 * GitHub Actions 
   * [Trigger Workflow](https://docs.github.com/en/actions/using-workflows/triggering-a-workflow)
+  * https://dev.to/mcastellin/snykcon-making-sense-of-container-security-with-snyk-cli-and-github-actions-phc
+  * https://github.com/mcastellin/snyk-container-demo
 * codecov
 * DockerHub
 * Kubernetes
