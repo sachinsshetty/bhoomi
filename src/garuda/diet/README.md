@@ -1,6 +1,18 @@
-### Steps
+## Diet
 
+#### TODO
+* Create Array values of Recipes from Ammanaaduge
 
+* docker build -t slabstech/bhoomi-garuda-diet .
+* docker scan slabstech/bhoomi-garuda-diet
+
+- Use Dockerfile to test the application
+- Use GithubAction to validate against tests for all scenarios
+
+<!-- 
+@sachin - Update the build steps for Java 17, SpringBoot, MariaDB, Kafka
+
+#### Build 
 * I/P : GitHub repo with SpringBoot project and maven build tool. Lombok and Postgis docker
 
 * Steps
@@ -91,3 +103,5 @@ Separate make targets exist for these tasks, to be run with `make <target>` (e.g
 * `install`: builds and installs the project artifacts without running tests
 * `test`: runs unit and integration tests
 * `build-image`: builds the docker image
+
+-->

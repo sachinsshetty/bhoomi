@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.23)
-set(PROJECT_NAME_STR onboard)
+set(PROJECT_NAME_STR navigation)
 project(${PROJECT_NAME_STR} C CXX)
 
 set(CMAKE_CXX_STANDARD 23)

@@ -1,11 +1,12 @@
 # Sample site navigation bar links
 
+
+- title: Development
+  url: /dev/
+
 - title: Research
   url: /research/
-
 
 - title: Book
   url: /book/
 
-- title: Sponsors
-  url: /sponsors/
