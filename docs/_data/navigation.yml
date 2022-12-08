@@ -1,7 +1,6 @@
-# Sample site navigation bar links
+# site navigation bar links
 
-
-- title: Development
+- title: dev
   url: /dev/
 
 - title: Research
