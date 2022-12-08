@@ -1,0 +1,3 @@
+[submodule "modules/bhoomi-vision"]
+	path = modules/bhoomi-vision
+	url = https://github.com/slabstech/bhoomi-vision.git
