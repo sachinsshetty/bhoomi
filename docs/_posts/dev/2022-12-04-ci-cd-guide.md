@@ -26,4 +26,5 @@ date: 2022-12-04T00:00:00-00:00
 * CodeIntelligence
 * Dependabot
 * Codespaces - [Dot Files](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#dotfiles)
-* 
+* RenovateBot
+  * https://github.com/renovatebot/renovate
