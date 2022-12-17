@@ -2,6 +2,8 @@
 
 #### Perpetual Autonomous Habitat System
 
+* [UN SDG](https://sdgs.un.org/goals) 
+
 * NASA Space Apps [2022 Global Nominee](https://2022.spaceappschallenge.org/locations/magdeburg/teams)
 
 * [Demo - https://mangala.earth](https://mangala.earth)

@@ -1,3 +1,6 @@
 [submodule "modules/bhoomi-vision"]
 	path = modules/bhoomi-vision
 	url = https://github.com/slabstech/bhoomi-vision.git
+[submodule "modules/bhoomi-navigation"]
+	path = modules/bhoomi-navigation
+	url = https://github.com/slabstech/bhoomi-navigation.git
