@@ -8,6 +8,10 @@
 
 * [Demo - https://mangala.earth](https://mangala.earth)
 
+* Modules
+  * [vision](https://github.com/slabstech/bhoomi-vision)
+  * [navigation](https://github.com/slabstech/bhoomi-navigation)
+
 * 3 step process - Project 
   * Download
   * Build
