@@ -12,12 +12,12 @@
   * [vision](https://github.com/slabstech/bhoomi-vision)
   * [navigation](https://github.com/slabstech/bhoomi-navigation)
 
-* 3 step process - Project 
+* 3-step process - Project 
   * Download
   * Build
   * Run 
 
-* 3 step process - Research
+* 3-step process - Research
   * Measure  
   * Build  
   * Intervene
@@ -29,4 +29,4 @@
 Manifest - https://www.mozilla.org/en-US/about/manifesto/
 
 Drive https://drive.google.com/drive/folders/18G5hCIlTgJR4C71wIoHms6DEFuJpF5Gk
->
+-->
