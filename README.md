@@ -1,4 +1,4 @@
-# ಭೂಮಿ / Bhoomi
+# [ಭೂಮಿ / Bhoomi](https://mangala.earth)
 
 #### Perpetual Autonomous Habitat System
 
@@ -6,16 +6,9 @@
 
 * NASA Space Apps [2022 Global Nominee](https://2022.spaceappschallenge.org/locations/magdeburg/teams)
 
-* [Demo - https://mangala.earth](https://mangala.earth)
-
 * Modules
   * [vision](https://github.com/slabstech/bhoomi-vision)
   * [navigation](https://github.com/slabstech/bhoomi-navigation)
-
-* 3-step process - Project 
-  * Download
-  * Build
-  * Run 
 
 * 3-step process - Research
   * Measure  
