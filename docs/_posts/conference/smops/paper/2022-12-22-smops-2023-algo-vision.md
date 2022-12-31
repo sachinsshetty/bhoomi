@@ -9,4 +9,4 @@ date: 2022-10-23T00:00:00-00:00
 
 Algorithm 
 
- <img src="https://github.com/slabstech/bhoomi/tree/main/docs/images/vision_architecture.png" alt="Vision architecture" width="500" height="600"> 
+ <img loading="lazy" src="https://github.com/slabstech/bhoomi/blob/main/docs/images/vision_architecture.png" alt="Vision architecture" width="500" height="600"> 
