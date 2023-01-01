@@ -5,20 +5,6 @@ excerpt: "Prepare to Finish"
 search_omit: true
 ---
 
-<h4>Benefits for Open Source Researcher</h4>
-<ul>
- <li>Author Registration costs only for Internation conference on Paper Acceptance (next IROS 2023)</li>
-
- <li>125 € for 40 hours per months on Open Source Research from S Labs Tech via GitHub Sponsors </li>
-
- <li> Upgrade skills for career growth and showcase best work on GitHub</li>
-
- <li>Proton VPN Subscription after 3 months from S Labs Tech</li>
-
- <li>IntelliJ Ultimate Subscription after 3 months from JetBrains OpenSource (Conditions Apply)</li>
-</ul >
-
-
 
 <h4>Research Plan</h4>
 <ul>
