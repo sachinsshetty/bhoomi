@@ -9,3 +9,7 @@ date: 2022-10-23T00:00:00-00:00
 
 Literature
 
+* Computer vision - Multi-camera F1 streaming camera's
+* Swarm Monitoring - ATC controller 
+* Dashboard - VSM like
+
