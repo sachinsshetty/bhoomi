@@ -1,29 +1,12 @@
 ---
 layout: page
-title: "SMOPS-2023 : Abstract"
-categories: research-smops
+title: "Abstract - SMOPS 2023 "
+categories: research-smops-23
 excerpt : "Garuda Swarm"
-tags: [ research-smops ]
+tags: [ research-smops-23 ]
 date: 2022-10-23T00:00:00-00:00
 ---
 
-3: Human Spaceflight Mission Operation Management
-- Crew Life support system design
-
-
-Garuda UAV Swarm in Bhoomi Habitat
-  
-Sachin Shetty(1), 
-Rohith Vaidya(2) , 
-Sahana Shetty(3)
-
-(1) S Labs Solutions, Kalghatgi, India, +91 77951 13809, info@slabstech.com
-
-(3) S Labs Solutions, Hubballi, India, +91 94820 63809, sahana.shetty998@gmail.com
-
-(2) S Labs Solutions, Bengaluru, India , +91 88928 61269, rohithvaidya@gmail.com
-
-Keywords: Navigation, Resource Optimisation, Habitat Design, Pheno-typing
 
 Abstract 
 
