@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Join Use"
+title: "Join Us"
 excerpt: "For a rocket seat"
 search_omit: true
 ---
