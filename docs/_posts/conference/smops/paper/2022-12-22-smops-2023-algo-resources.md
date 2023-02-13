@@ -32,4 +32,9 @@ Algorithm - Resource Allocation
     </tr>
 </table>
 
-
+Calorie intake of astronaut is 2700 to 3700 calories a day in space. The
+food ranges from fruits,vegetables, poultry, beverages.
+Frozen, rehydratable, natural form, refrigerated, rehydratable,
+Algorithm:
+1. Prepare a meal plan of 3 meals per day for a week.
+2. Alternate the same meals for 1st,4th,7th day, and so on.
