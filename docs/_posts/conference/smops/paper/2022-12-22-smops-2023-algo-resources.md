@@ -49,7 +49,7 @@ Algorithm:
         <th>Dinner</th>
     </tr>
     <tr>
-        <td>Sunday</td>
+        <td>Day 1</td>
         <td> Dosa </td>
          <td>Pulao</td>
         <td>Sweet corn masala</td>
@@ -57,42 +57,42 @@ Algorithm:
     </td>
     </tr>
     <tr>
-        <td>Monday</td>
+        <td>Day 2</td>
         <td>Poha</td>
         <td>Curd rice</td>
         <td>Biscuit with gelatin coating</td>
         <td>Carrot</td>
     </tr>
    <tr>
-        <td>Tuesday</td>
+        <td>Day 3</td>
         <td>Chapathi</td>
         <td>Chapathi and curry</td>
         <td>Orange</td>
         <td>Ladies finger</td>
     </tr>
   <tr>
-        <td>Wednesday</td>
+        <td>Day 4</td>
         <td>Thalipeeth</td>
         <td>Puliogare</td>
         <td>Sprouts</td>
         <td>Cauliflower gravy</td>
     </tr>
   <tr>
-        <td>Thursday</td>
+        <td>Day 5</td>
         <td>Upma</td>
         <td>Biryani</td>
         <td>Almonds</td>
         <td>Cabbage curry</td>
     </tr>
   <tr>
-        <td>Friday</td>
+        <td>Day 6</td>
         <td>Idli sambhar</td>
         <td>Jowar roti and curry</td>
         <td>Banana</td>
         <td>Capsicum masala and roti</td>
     </tr>
   <tr>
-        <td>Saturday</td>
+        <td>Day 7</td>
         <td>Methi chapathi</td>
         <td>Tomato rice</td>
         <td>Apple</td>
