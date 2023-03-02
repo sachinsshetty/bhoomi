@@ -59,9 +59,9 @@ Algorithm:
     <tr>
         <td>Day 2</td>
         <td>Poha</td>
-        <td>Curd rice</td>
+        <td>Palak rice</td>
         <td>Biscuit with gelatin coating</td>
-        <td>Carrot</td>
+        <td>Spinach curry</td>
     </tr>
    <tr>
         <td>Day 3</td>
@@ -97,5 +97,66 @@ Algorithm:
         <td>Tomato rice</td>
         <td>Apple</td>
         <td>Ragi thalipeeth</td>
+    </tr>
+</table>
+
+Calories(kiloCalories) of each meal for 7 days per 100 gram
+<table>
+    <tr >
+        <th>Day</th>
+        <th>Breakfast</th>
+        <th>Lunch</th>
+        <th>Snack</th>
+        <th>Dinner</th>
+    </tr>
+    <tr>
+        <td>Day 1</td>
+        <td> 173 </td>
+         <td>359</td>
+        <td>114</td>
+        <td>100</td>
+    </td>
+    </tr>
+    <tr>
+        <td>Day 2</td>
+        <td>113</td>
+        <td>Curd rice</td>
+        <td>Biscuit with gelatin coating</td>
+        <td>Carrot</td>
+    </tr>
+   <tr>
+        <td>Day 3</td>
+        <td>300</td>
+        <td>Chapathi and curry</td>
+        <td>50</td>
+        <td>54</td>
+    </tr>
+  <tr>
+        <td>Day 4</td>
+        <td>Thalipeeth</td>
+        <td>177</td>
+        <td>Sprouts</td>
+        <td>91</td>
+    </tr>
+  <tr>
+        <td>Day 5</td>
+        <td>Upma</td>
+        <td>Biryani</td>
+        <td>578</td>
+        <td>51</td>
+    </tr>
+  <tr>
+        <td>Day 6</td>
+        <td>82</td>
+        <td>Jowar roti and curry</td>
+        <td>89</td>
+        <td>Capsicum masala and roti</td>
+    </tr>
+  <tr>
+        <td>Day 7</td>
+        <td>336</td>
+        <td>100</td>
+        <td>52</td>
+        <td>100</td>
     </tr>
 </table>
