@@ -16,6 +16,24 @@ search_omit: true
 </ul >
 
 
+  <table>
+       <tr >
+           <th>Module</th>
+       </tr>
+       <tr>
+           <td><a href="https://github.com/slabstech/margasuchi"> Margasuchi - Navigation - Replication algorithm</a></td>
+       </tr>
+       <tr>
+           <td><a href="https://github.com/slabstech/drushti"> Drushti - Vision: Phenotype Plant Identification</a></td>
+       </tr>
+       <tr>
+           <td><a href="https://github.com/slabstech/annapoorna"> Annapoorna </a></td>
+       </tr>
+
+   </table>
+
+
+
 ##### Conference
 
 * Upcoming 
