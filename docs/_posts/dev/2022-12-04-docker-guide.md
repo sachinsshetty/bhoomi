@@ -7,6 +7,9 @@ tags: [ dev ]
 date: 2022-12-04T00:00:00-00:00
 ---
 
+* Docker open source application
+  * https://www.docker.com/community/open-source/application/
+
 * References
   * https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/
   * https://snyk.io/blog/shifting-docker-security-left/

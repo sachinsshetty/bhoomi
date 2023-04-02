@@ -14,6 +14,11 @@ search_omit: true
     * Next 3 months
   * What you worked on previously
 
+<ul class="post-list">
+{% for post in site.categories.milestone %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>
 
 
 * Milestone
@@ -28,3 +33,5 @@ search_omit: true
     * Code - 31/1/23
     * Extended Abstract(4 pages) - 7/2/23
     * Full Paper (8 pages) - 21/2/23
+
+
