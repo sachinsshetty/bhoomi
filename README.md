@@ -1,8 +1,23 @@
 # [ಭೂಮಿ / Bhoomi](https://mangala.earth)
 
-#### Perpetual Autonomous Habitat System
+#### Navigation Guide to Mars
 
+* Satellite Tracker
+  * Predict orbits
+  * Track with Radio Telescopes
+  * Simulate Collision Avoidance
+* Rocket Launch Locations
+  * Functioning Launch Pads
+  * New Locations Discovery
+* Future Launches
+  * Launch Windows
+  * Satellite placement
 
+### Powered by
+* [S Labs Solutions, India.](https://slabstech.com)
+
+<!--
+    
 Bhoomi is an Autonomous Habitat designed for long term exploration on Mars.
 
 Bhoomi can be visualised as Internation Space Station on Mars, but designed with robots and human to complement work and exploration
@@ -16,10 +31,6 @@ Robots will be sent earlier than Humans due to low-cost Rockets compared to huma
   * [margasuchi](https://github.com/slabstech/margasuchi) - navigation
   * [annapoorna](https://github.com/slabstech/annapoorna) - food process
 
-### Powered by
-* [S Labs Solutions, India.](https://slabstech.com)
-
-<!--
 * 3-step process - Research
   * Measure  
   * Build  

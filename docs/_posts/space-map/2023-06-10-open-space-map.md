@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "Open Space Maps"
-categories: open-space-map
+categories: osm
 excerpt : "Navigation Map to Mars"
-tags: [ open-space-map ]
+tags: [ osm ]
 date: 2022-11-07T00:00:00-00:00
 ---
 
