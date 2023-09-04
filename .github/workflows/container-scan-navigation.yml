@@ -31,7 +31,7 @@ jobs:
         shell: bash -l {0}
         working-directory: '/src/garuda/navigation/'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Build the Docker image
         run: docker build -t slabstech/bhoomi-garuda-navigation  .
       - name: Run Snyk to check Docker image for vulnerabilities
